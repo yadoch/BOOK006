@@ -30,6 +30,7 @@ public class MarriageSuggestionTest {
         assertEquals(s, "開始找對象。");
 
         s = marriageSuggestion.getSuggestion("女", 30);
-        assertEquals(s, "趕快結婚！");
+        assertEquals(s, "開始找對象。");
+      //  assertEquals(s, "趕快結婚！");
     }
 }
